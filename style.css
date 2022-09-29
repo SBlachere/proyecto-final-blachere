@@ -198,6 +198,8 @@ a:hover{
 
 .button{
     color: #402759;
+    border: 3px solid black;
+    
 }
 .p{
     font-size: 300px;
