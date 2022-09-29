@@ -1,0 +1,340 @@
+
+@font-face {
+    font-family: WoW2;
+    src: url(fonts/LifeCraft_Font.ttf);
+}
+@font-face {
+    font-family: WoW;
+    src: url(fonts/Warcraft-Yj2j.ttf);
+}
+
+
+.redes{
+    border: 3px solid black;
+    display: flex;
+    
+    
+    width: 100%;
+    background-image: url(imagenes/fondo_main.jpg);
+    
+    
+    
+    height: 50px;
+}
+
+.icono{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 5px;
+}
+.titulo-menu{
+    background-image: url(imagenes/banner-menu-inicio.png);
+    border: 3px solid black;
+}
+h1{
+    font-family: "WoW2";
+    color: #402759;
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+    
+    width: 50%;
+    font-size: 100px;
+    
+
+}
+.secciones-container{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.secciones{
+    font-family: "WoW";
+    font-size: 20px;
+    color: #402759;
+}
+.secciones-b{
+    font-family: "WoW2";
+    color: #402759;
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+
+}
+h2{
+    font-family: "WoW2";
+    color: #402759;
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+    width: 100%;
+    font-size: 25px;
+    border: black 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F2E5A0;
+    
+    
+    
+      
+}
+
+h5{    
+    font-family: "WoW2";
+    color: #402759;
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+    width: 100%;
+    font-size: 20px;
+    border:#402759 solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F2E5A0;
+
+}
+
+body{
+    background-image: url(imagenes/fondo_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.noticias{
+    margin-top: 5px;
+}
+
+.login{
+    font-family: "WoW2";
+    color: #402759;
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+    ;
+    border:#402759 solid 2px;
+    margin-top: 5px;
+    background-color: #F2E5A0;
+    padding: 10px;
+
+}
+
+.form-control{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    
+
+}
+.form-label{
+    display: flex;
+    margin-left: 5px;
+    
+}
+a{
+    color: #402759;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: white;
+}
+
+.button{
+    color: #402759;
+    background-color: #402759;
+}
+
+.noticias-container{
+    width: 70%;
+}
+.form-container{
+    width: 30%;
+}
+
+.copyright{
+    color: #F28C0F;
+    font-family: WoW;
+}
+
+.footer{
+    height: 50px;
+}
+
+/* CREAR CUENTA */
+
+.registro{
+    width: 70%;
+    height: 500px;
+    font-family: "WoW";
+    display: flex;
+    flex-direction: column;
+    color: #402759;
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+    
+    font-size: 20px;
+    
+}
+.registro-b{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.registro-c{
+    padding: 10px;
+    margin-left: 379px;
+    margin-top: 5px;
+    color: #402759;
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+    background-color:#402759
+}
+
+.button{
+    color: #402759;
+}
+.p{
+    font-size: 300px;
+}
+
+h5::selection{
+    background-color: #F28C0F;
+    color: #402759;
+}
+h2::selection{
+    background-color: #F28C0F;
+    color: #402759;
+}
+a:hover{
+    color: #000000 !important;
+    
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    
+    background-color:#F2E5A0;
+    color: #402759;
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+
+}
+
+/* INFORMACION */
+.imagen{
+    width: 100%;
+    height: 180px;
+}
+
+h3{
+    font-family: WoW2;
+    margin-left: 80px;
+    color: #402759;
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+
+}
+.iconos{
+    width: 30%;
+    height: 100px;
+}
+.players-container{
+    color: #402759;
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+    font-family: WoW2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    
+    justify-content: space-between;
+}
+
+.servers{
+    padding: 20px;
+}
+/* ranking */
+.icono-rank{
+    width: 20%;
+    height: 35px;
+}
+.ranking{
+    color: #402759;
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+    font-family: WoW2;
+
+}
+
+/* descarga */
+
+.dropdown{
+    
+    display: flex;
+    
+    
+}
+.dropdown-b{
+    background-color: #402759;
+    color: #F28C0F;
+    font-family: WoW;
+}
+.titulo-descarga{
+    padding: 10px;
+    margin-left: 5px;
+    
+}
+.so{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    
+}
+.tutorial{
+    font-family: WoW2;
+    color: #402759;
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+}
+.tutorial-container{
+    border-bottom: solid 2px black;
+}
+.tutorial-container-b{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+/* responsive */
+
+@media (max-width: 576px){
+    .secciones-container{
+        list-style-type: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    h5{
+        font-family: "WoW2";
+        color: #402759;
+        text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+        1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+        width: 100%;
+        font-size: 15px;
+        border:#402759 solid 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #F2E5A0;
+    }
+}
