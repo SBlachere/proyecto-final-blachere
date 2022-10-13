@@ -1,0 +1,50 @@
+header{
+    div{
+        .redes{
+            border:3px solid black;
+            display: flex;
+            width: 100%;
+            background-image: url(../imagenes/fondo_main.jpg);
+            height: 50px;
+            .icono{
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: row;
+                max-width: 100%;
+                max-height: 100%;
+                padding: 5px;
+            }
+
+
+        }
+    }
+    .titulo-menu{
+        background-image: url(../imagenes/banner-menu-inicio.png);
+        border: 3px solid black;
+        section{
+            div{
+                .secciones-container{
+                    display: flex;
+                    list-style-type: none;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    .secciones{
+                        font-family: "WoW";
+                        font-size: 20px;
+                        color: nth($colores,1);
+                        .secciones-b{
+                            font-family: "WoW2";
+                            color: nth($colores,1);
+                            text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+                             1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F; 
+
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    
+    
+}

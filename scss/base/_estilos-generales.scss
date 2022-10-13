@@ -1,0 +1,121 @@
+@font-face {
+    font-family: WoW2;
+    src: url(../fonts/LifeCraft_Font.ttf);
+}
+@font-face {
+    font-family: WoW;
+    src: url(../fonts/Warcraft-Yj2j.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+h1{
+    font-family: "WoW2";
+    color: eth($colores,1);
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+    
+    width: 50%;
+    font-size: 100px;
+    
+
+}
+h2{
+    font-family: "WoW2";
+    color: eth($colores,1);
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+    width: 100%;
+    font-size: eth($font-size,3);;
+    border: eth($colores,4) 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: eth($colores,3);
+}
+h5{    
+    font-family: "WoW2";
+    color: eth($colores,1);
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+    width: 100%;
+    font-size: eth($font-size,2);
+    border:eth($colores,1) solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: eth($colores,3);
+
+}
+body{
+    background-image: url(../imagenes/fondo_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button{
+    color: eth($colores,1);
+    border: 3px solid eth($colores,4);
+
+}
+h3{
+    font-family: WoW2;
+    margin-left: 80px;
+    color: eth($colores,1);
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+
+}
+h5::selection{
+    background-color: eth($colores,2);
+    color: eth($colores,1);
+}
+h2::selection{
+    background-color: eth($colores,2);
+    color: eth($colores,1);
+}
+a:hover{
+    color: eth($colores,4)!important;
+    
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    
+    background-color:eth($colores,3);
+    color: eth($colores,1);
+    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+
+}
+@media (max-width: 576px){
+    .secciones-container{
+        list-style-type: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    h5{
+        font-family: "WoW2";
+        color: #402759;
+        text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+        1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+        width: 100%;
+        font-size: eth($font-size,1);;
+        border:#402759 solid 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #F2E5A0;
+    }
+}
+a{
+    color: #402759;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: white;
+}

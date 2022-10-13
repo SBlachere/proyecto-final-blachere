@@ -1,0 +1,32 @@
+div{
+    .noticias-container{
+        .servers{
+            padding: 20px;
+            div{
+                div{
+                    .imagen{
+                        width: 100%;
+                        height: 180px;
+
+                    }
+                    .players-container{
+                        color: nth($colores,1);
+                        text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+                        1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+                        font-family: WoW2;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        padding: 20px;
+                        justify-content: space-between;
+                        .iconos{
+                            width: 30%;
+                            height: 100px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

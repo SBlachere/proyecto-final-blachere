@@ -1,0 +1,16 @@
+table{
+    
+    .ranking{
+        color: nth($colores,1);
+        text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+        1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+        font-family: WoW2;
+            
+        td{
+            .icono-rank{
+                width: 20%;
+                height: 35px;
+            }
+        }
+    }
+}

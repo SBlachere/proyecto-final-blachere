@@ -1,0 +1,48 @@
+div{
+    .noticias-container{
+        font-family: WoW;
+        color: nth($colores,1);
+        text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+        1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+        div{
+            .so{
+                border-right: 2px solid nth($colores,4);
+                border-bottom: 2px solid nth($colores,4);
+                padding: 5px;
+                .titulo-descarga{
+                    padding: 10px;
+                    margin-left: 5px;
+
+                }
+                .dropdown{
+                    display: flex;
+                    .dropdown-b{
+                        background-color: nth($colores,1);
+                        color: nth($colores,2);
+                        font-family: WoW;
+
+                    }
+
+                }
+            }
+            .tutorial-container{
+                border-bottom: solid 2px nth($colores,4);
+            }
+        }  
+        div{
+            .tutorial-container-b{
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+                .tutorial{
+                    font-family: WoW2;
+                    color: nth($colores,1);
+                    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+                    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+
+                }
+            }
+
+        }      
+    }
+}

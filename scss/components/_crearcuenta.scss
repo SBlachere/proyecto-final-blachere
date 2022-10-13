@@ -1,0 +1,50 @@
+div{
+    .registro{
+        width: 70%;
+        height: 500px;
+        font-family: "WoW";
+        display: flex;
+        flex-direction: column;
+        color: nth($colores,1);
+        text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+        1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+        font-size: eth($font-size,2);
+    
+    
+       
+        div{
+            div{
+                form{
+                    .registro-b{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        align-items: center;
+                        
+                        .form-control{
+                            width: 50%;
+                            display: flex;
+                            justify-content: center;
+                            border: 2px solid nth($colores,4);
+
+                        }
+
+                    }
+                    .registro-c{
+                        padding: 10px;
+                        margin-left: 379px;
+                        margin-top: 5px;
+                        color: nth($colores,1);
+                        text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
+                        1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+                        background-color:nth($colores,1)
+
+                    }
+                    
+                    
+                }
+            }
+
+        }
+    }
+}
