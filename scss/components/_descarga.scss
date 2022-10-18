@@ -4,7 +4,8 @@ div{
         color: nth($colores,1);
         text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
         1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
-        div{
+        width: 70%;
+        div{    
             .so{
                 border-right: 2px solid nth($colores,4);
                 border-bottom: 2px solid nth($colores,4);

@@ -39,7 +39,9 @@
             </div>
             <div class="row titulo-menu">
                 <div class="col-md-2">
+                  <a class="nav-link secciones-b" href="../index.html">
                     <h1 class="animate__animated animate__fadeInLeft">Gotria</h1>
+                  </a>
                     
                 </div>
 
@@ -73,7 +75,7 @@
                         <h3 class="titulo-descarga">Expansion</h3>
                         <div class="dropdown">
                           <button class="btn btn-secondary dropdown-toggle dropdown-b" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown button
+                            Expansion
                           </button>
                           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="#">Action</a>
@@ -84,7 +86,7 @@
                         <h3 class="titulo-descarga">Sistema operativo</h3>
                         <div class="dropdown">
                           <button class="btn btn-secondary dropdown-toggle dropdown-b" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown button
+                            Sistema operativo
                           </button>
                           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="#">Action</a>
@@ -111,11 +113,11 @@
         
             <div class="col-md-6 form-container">
                 <div class="row">
-                    <form class="login">
+                    <form action="/server/" method="POST" enctype= "application/x-www-form-urlencoded"class="login">
                         <!-- Email input -->
                         <div class="form-outline mb-4">
-                          <input type="email" id="form2Example1" class="form-control" />
-                          <label class="form-label" for="form2Example1">Correo electrónico</label>
+                          <input type="email" placeholder="Correo electrónico" id="form2Example1" class="form-control" />
+                          <label for="correo-electronico" id="correo-electronico" name="correo-electronico"class="form-label" for="form2Example1">Correo electrónico</label>
                         </div>
                       
                         <!-- Password input -->

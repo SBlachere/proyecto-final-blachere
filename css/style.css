@@ -173,12 +173,17 @@ div .registro div div form .registro-b .form-control {
   border: 2px solid black;
 }
 div .registro div div form .registro-c {
+  width: 80%;
+  margin-left: 75px;
+  margin-top: 10px;
   padding: 10px;
-  margin-left: 379px;
-  margin-top: 5px;
+  align-items: center;
+  border: 2px solid black;
   color: #402759;
   text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
-  background-color: #402759;
+  background-color: #F28C0F;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 div .noticias-container {
@@ -201,6 +206,7 @@ div .noticias-container {
   font-family: WoW;
   color: #402759;
   text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+  width: 70%;
 }
 div .noticias-container div .so {
   border-right: 2px solid black;
