@@ -1,3 +1,173 @@
+header div .redes {
+  border: 3px solid black;
+  display: flex;
+  width: 100%;
+  background-image: url(../imagenes/fondo_main.jpg);
+  height: 50px;
+}
+header div .redes .icono {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 50px;
+  max-height: 100%;
+  padding: 5px;
+}
+header .titulo-menu {
+  background-image: url(../imagenes/banner-menu-inicio.png);
+  border: 3px solid black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .titulo-menu section div .secciones-container {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header .titulo-menu section div .secciones-container .secciones {
+  font-family: "WoW";
+  font-size: 15px;
+  color: #653E8C;
+}
+header .titulo-menu section div .secciones-container .secciones .secciones-b {
+  font-family: "WoW2";
+  color: #653E8C;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
+div .registro {
+  width: 70%;
+  height: 500px;
+  font-family: "WoW";
+  display: flex;
+  flex-direction: column;
+  color: #653E8C;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-size: eth(15px, 20px, 25px, 100px, 2);
+}
+div .registro div div form .registro-b {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+div .registro div div form .registro-b .form-control {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #D9A3CA;
+}
+div .registro div div form .registro-c {
+  width: 80%;
+  margin-left: 75px;
+  margin-top: 10px;
+  padding: 10px;
+  align-items: center;
+  border: 2px solid black;
+  color: #653E8C;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  background-color: #6663A6;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+div .noticias-container {
+  width: 70%;
+}
+div .form-container {
+  width: 30%;
+}
+div .form-container div .login {
+  font-family: "WoW";
+  color: #A9D9D9;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  border-right: #D9A3CA solid 2px;
+  border-left: #D9A3CA solid 2px;
+  border-bottom: #D9A3CA solid 2px;
+  background-color: #653E8C;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+div .noticias-container {
+  font-family: WoW;
+  color: #653E8C;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  width: 70%;
+}
+div .noticias-container div .so {
+  border-right: 2px solid #D9A3CA;
+  border-bottom: 2px solid #D9A3CA;
+  padding: 5px;
+}
+div .noticias-container div .so .titulo-descarga {
+  padding: 10px;
+  margin-left: 5px;
+}
+div .noticias-container div .so .dropdown {
+  display: flex;
+}
+div .noticias-container div .so .dropdown .dropdown-b {
+  background-color: #653E8C;
+  color: #6663A6;
+  font-family: WoW;
+}
+div .noticias-container div .tutorial-container {
+  border-bottom: solid 2px #D9A3CA;
+}
+div .noticias-container div .tutorial-container-b {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+div .noticias-container div .tutorial-container-b .tutorial {
+  font-family: WoW2;
+  color: #653E8C;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
+div .noticias-container .servers {
+  padding: 20px;
+}
+div .noticias-container .servers div div .imagen {
+  width: 80%;
+  height: 180px;
+  margin-left: 20px;
+}
+div .noticias-container .servers div div .players-container {
+  color: #653E8C;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family: WoW2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+div .noticias-container .servers div div .players-container .iconos {
+  width: 30%;
+  height: 100px;
+}
+
+table .ranking {
+  color: #653E8C;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family: WoW2;
+}
+table .ranking td .icono-rank {
+  width: 20%;
+  height: 60px;
+}
+
+.footer-texto {
+  color: #402759;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  font-family: WoW;
+  font-size: 20px;
+}
+
 @font-face {
   font-family: WoW2;
   src: url(../fonts/LifeCraft_Font.ttf);
@@ -13,36 +183,36 @@
 
 h1 {
   font-family: "WoW2";
-  color: eth(#402759, #F28C0F, #F2E5A0, black, 1);
-  text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+  color: #653E8C;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
   width: 50%;
   font-size: 100px;
 }
 
 h2 {
   font-family: "WoW2";
-  color: eth(#402759, #F28C0F, #F2E5A0, black, 1);
-  text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+  color: eth(#653E8C, #6663A6, #A9D9D9, #D9A3CA, 1);
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
   width: 100%;
   font-size: eth(15px, 20px, 25px, 100px, 3);
-  border: eth(#402759, #F28C0F, #F2E5A0, black, 4) 2px solid;
+  border: eth(#653E8C, #6663A6, #A9D9D9, #D9A3CA, 4) 2px solid;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: eth(#402759, #F28C0F, #F2E5A0, black, 3);
+  background-color: eth(#653E8C, #6663A6, #A9D9D9, #D9A3CA, 3);
 }
 
 h5 {
   font-family: "WoW2";
-  color: eth(#402759, #F28C0F, #F2E5A0, black, 1);
-  text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+  color: eth(#653E8C, #6663A6, #A9D9D9, #D9A3CA, 1);
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
   width: 100%;
   font-size: eth(15px, 20px, 25px, 100px, 2);
-  border: eth(#402759, #F28C0F, #F2E5A0, black, 1) solid 2px;
+  border: eth(#653E8C, #6663A6, #A9D9D9, #D9A3CA, 1) solid 2px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: eth(#402759, #F28C0F, #F2E5A0, black, 3);
+  background-color: eth(#653E8C, #6663A6, #A9D9D9, #D9A3CA, 3);
 }
 
 body {
@@ -52,61 +222,42 @@ body {
 }
 
 .button {
-  color: eth(#402759, #F28C0F, #F2E5A0, black, 1);
-  border: 3px solid eth(#402759, #F28C0F, #F2E5A0, black, 4);
+  color: eth(#653E8C, #6663A6, #A9D9D9, #D9A3CA, 1);
+  border: 3px solid eth(#653E8C, #6663A6, #A9D9D9, #D9A3CA, 4);
 }
 
 h3 {
   font-family: WoW2;
   margin-left: 80px;
-  color: eth(#402759, #F28C0F, #F2E5A0, black, 1);
-  text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+  color: eth(#653E8C, #6663A6, #A9D9D9, #D9A3CA, 1);
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
 }
 
 h5::selection {
-  background-color: eth(#402759, #F28C0F, #F2E5A0, black, 2);
-  color: eth(#402759, #F28C0F, #F2E5A0, black, 1);
+  background-color: eth(#653E8C, #6663A6, #A9D9D9, #D9A3CA, 2);
+  color: eth(#653E8C, #6663A6, #A9D9D9, #D9A3CA, 1);
 }
 
 h2::selection {
-  background-color: eth(#402759, #F28C0F, #F2E5A0, black, 2);
-  color: eth(#402759, #F28C0F, #F2E5A0, black, 1);
+  background-color: eth(#653E8C, #6663A6, #A9D9D9, #D9A3CA, 2);
+  color: eth(#653E8C, #6663A6, #A9D9D9, #D9A3CA, 1);
 }
 
 a:hover {
-  color: eth(#402759, #F28C0F, #F2E5A0, black, 4) !important;
+  color: eth(#653E8C, #6663A6, #A9D9D9, #D9A3CA, 4) !important;
 }
 
 .boton {
   display: flex;
   justify-content: center;
-  background-color: eth(#402759, #F28C0F, #F2E5A0, black, 3);
-  color: eth(#402759, #F28C0F, #F2E5A0, black, 1);
-  text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+  background-color: eth(#653E8C, #6663A6, #A9D9D9, #D9A3CA, 1);
+  color: #A9D9D9;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
 }
 
-@media (max-width: 576px) {
-  .secciones-container {
-    list-style-type: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  h5 {
-    font-family: "WoW2";
-    color: #402759;
-    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
-    width: 100%;
-    font-size: eth(15px, 20px, 25px, 100px, 1);
-    border: #402759 solid 2px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #F2E5A0;
-  }
-}
 a {
-  color: #402759;
+  color: #A9D9D9;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
   text-decoration: none;
 }
 
@@ -114,168 +265,25 @@ a:hover {
   color: white;
 }
 
-header div .redes {
-  border: 3px solid black;
-  display: flex;
-  width: 100%;
-  background-image: url(../imagenes/fondo_main.jpg);
-  height: 50px;
-}
-header div .redes .icono {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  max-width: 100%;
-  max-height: 100%;
-  padding: 5px;
-}
-header .titulo-menu {
-  background-image: url(../imagenes/banner-menu-inicio.png);
-  border: 3px solid black;
-}
-header .titulo-menu section div .secciones-container {
-  display: flex;
-  list-style-type: none;
-  flex-direction: row;
-  justify-content: space-around;
-}
-header .titulo-menu section div .secciones-container .secciones {
-  font-family: "WoW";
-  font-size: 20px;
-  color: #402759;
-}
-header .titulo-menu section div .secciones-container .secciones .secciones-b {
+th {
   font-family: "WoW2";
-  color: #402759;
-  text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
-}
-
-div .registro {
-  width: 70%;
-  height: 500px;
-  font-family: "WoW";
-  display: flex;
-  flex-direction: column;
-  color: #402759;
-  text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
-  font-size: eth(15px, 20px, 25px, 100px, 2);
-}
-div .registro div div form .registro-b {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-div .registro div div form .registro-b .form-control {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  border: 2px solid black;
-}
-div .registro div div form .registro-c {
-  width: 80%;
-  margin-left: 75px;
-  margin-top: 10px;
-  padding: 10px;
-  align-items: center;
-  border: 2px solid black;
-  color: #402759;
-  text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
-  background-color: #F28C0F;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-div .noticias-container {
-  width: 70%;
-}
-div .form-container {
-  width: 30%;
-}
-div .form-container div .login {
-  font-family: "WoW2";
-  color: #402759;
-  text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
-  border: #402759 solid 2px;
-  margin-top: 5px;
-  background-color: #F2E5A0;
-  padding: 10px;
-}
-
-div .noticias-container {
-  font-family: WoW;
-  color: #402759;
-  text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
-  width: 70%;
-}
-div .noticias-container div .so {
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
-  padding: 5px;
-}
-div .noticias-container div .so .titulo-descarga {
-  padding: 10px;
-  margin-left: 5px;
-}
-div .noticias-container div .so .dropdown {
-  display: flex;
-}
-div .noticias-container div .so .dropdown .dropdown-b {
-  background-color: #402759;
-  color: #F28C0F;
-  font-family: WoW;
-}
-div .noticias-container div .tutorial-container {
-  border-bottom: solid 2px black;
-}
-div .noticias-container div .tutorial-container-b {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-div .noticias-container div .tutorial-container-b .tutorial {
-  font-family: WoW2;
-  color: #402759;
-  text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
-}
-
-div .noticias-container .servers {
-  padding: 20px;
-}
-div .noticias-container .servers div div .imagen {
-  width: 100%;
-  height: 180px;
-}
-div .noticias-container .servers div div .players-container {
-  color: #402759;
-  text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
-  font-family: WoW2;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 20px;
-  justify-content: space-between;
-}
-div .noticias-container .servers div div .players-container .iconos {
-  width: 30%;
-  height: 100px;
-}
-
-table .ranking {
-  color: #402759;
-  text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F, 1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
-  font-family: WoW2;
-}
-table .ranking td .icono-rank {
-  width: 20%;
-  height: 35px;
-}
-
-.footer-texto {
-  color: #402759;
+  color: #A9D9D9;
   text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
-  font-family: WoW;
-  font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  .secciones-container {
+    font-size: 10px;
+  }
+  h5 {
+    font-family: "WoW2";
+    width: 100%;
+    font-size: 15px;
+    border: #402759 solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

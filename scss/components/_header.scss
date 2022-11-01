@@ -6,13 +6,15 @@ header{
             width: 100%;
             background-image: url(../imagenes/fondo_main.jpg);
             height: 50px;
+            
             .icono{
                 display: flex;
                 justify-content: flex-start;
                 flex-direction: row;
-                max-width: 100%;
+                width: 50px;
                 max-height: 100%;
                 padding: 5px;
+                
             }
 
 
@@ -21,6 +23,8 @@ header{
     .titulo-menu{
         background-image: url(../imagenes/banner-menu-inicio.png);
         border: 3px solid black;
+        background-repeat: no-repeat;
+        background-size: cover;
         section{
             div{
                 .secciones-container{
@@ -28,15 +32,17 @@ header{
                     list-style-type: none;
                     flex-direction: row;
                     justify-content: space-around;
+                    
                     .secciones{
                         font-family: "WoW";
-                        font-size: 20px;
+                        font-size: 15px;
                         color: nth($colores,1);
                         .secciones-b{
-                            font-family: "WoW2";
-                            color: nth($colores,1);
-                            text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
-                             1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F; 
+                        font-family: "WoW2";
+                        color: nth($colores,1);
+                        text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+                
+                        1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
 
                         }
                     }

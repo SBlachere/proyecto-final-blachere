@@ -13,10 +13,9 @@
 }
 h1{
     font-family: "WoW2";
-    color: eth($colores,1);
-    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
-    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
-    
+    color:#653E8C;
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+                1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
     width: 50%;
     font-size: 100px;
     
@@ -25,8 +24,8 @@ h1{
 h2{
     font-family: "WoW2";
     color: eth($colores,1);
-    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
-    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+                1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
     width: 100%;
     font-size: eth($font-size,3);;
     border: eth($colores,4) 2px solid;
@@ -38,8 +37,8 @@ h2{
 h5{    
     font-family: "WoW2";
     color: eth($colores,1);
-    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
-    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+                1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
     width: 100%;
     font-size: eth($font-size,2);
     border:eth($colores,1) solid 2px;
@@ -63,8 +62,8 @@ h3{
     font-family: WoW2;
     margin-left: 80px;
     color: eth($colores,1);
-    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
-    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
 
 }
 h5::selection{
@@ -83,39 +82,43 @@ a:hover{
     display: flex;
     justify-content: center;
     
-    background-color:eth($colores,3);
-    color: eth($colores,1);
-    text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
-    1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
+    background-color:eth($colores,1);
+    color: nth($colores,3);
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+                1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
 
-}
-@media (max-width: 576px){
-    .secciones-container{
-        list-style-type: none;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    h5{
-        font-family: "WoW2";
-        color: #402759;
-        text-shadow: 2px 0 #F28C0F, -2px 0 #F28C0F, 0 2px #F28C0F, 0 -2px #F28C0F,
-        1px 1px #F28C0F, -1px -1px #F28C0F, 1px -1px #F28C0F, -1px 1px #F28C0F;
-        width: 100%;
-        font-size: eth($font-size,1);;
-        border:#402759 solid 2px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background-color: #F2E5A0;
-    }
-}
+
 a{
-    color: #402759;
+    color: nth($colores,3);
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+                1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
     text-decoration: none;
     
 }
 a:hover{
     color: white;
+}
+
+th{
+    font-family: "WoW2";
+        color: #A9D9D9;
+        text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+                1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+@media (max-width: 576px){
+   .secciones-container{
+    font-size: 10px;
+   }
+    h5{
+        font-family: "WoW2";
+        
+        width: 100%;
+        font-size: 15px;
+        border:#402759 solid 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
 }
